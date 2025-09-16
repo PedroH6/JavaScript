@@ -1,4 +1,4 @@
-function calcularMDC(a, b) {
+const calcularMDC = (a, b) => {
 
   while (b !== 0) {
     
@@ -14,3 +14,6 @@ function calcularMDC(a, b) {
 
 console.log(calcularMDC(12, 18)); // Saída: 6
 console.log(calcularMDC(48, 20)); // Saída: 4
+
+
+module.exports = { calcularMDC }

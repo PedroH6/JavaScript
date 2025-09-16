@@ -1,4 +1,4 @@
-function somaMultiplos() {
+const somaMultiplos = () => {
   let soma = 0;
 
   // O loop vai de 1 até 999 (abaixo de 1000)
@@ -10,6 +10,8 @@ function somaMultiplos() {
   }
 
   return soma;
-}
+};
 
 console.log(somaMultiplos()); // Saída: 156361
+
+module.exports = { somaMultiplos };
