@@ -1,4 +1,4 @@
-function encontrarIndicesMaiorMenor(arr) {
+const encontrarIndicesMaiorMenor = (arr) => {
   if (arr.length === 0) {
     return "Array vazio!";
   }
@@ -29,3 +29,6 @@ const numeros = [5, 2, 9, 1, 7];
 const resultado = encontrarIndicesMaiorMenor(numeros);
 console.log(`Índice do maior valor: ${resultado.indiceMaior}`); // Saída: 2 (valor 9)
 console.log(`Índice do menor valor: ${resultado.indiceMenor}`); // Saída: 3 (valor 1)
+
+
+module.exports = {encontrarIndicesMaiorMenor}
